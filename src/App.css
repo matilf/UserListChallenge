@@ -37,3 +37,120 @@
     transform: translateY(0px);
   }
 }
+
+
+.container{
+  box-shadow: -4px 7px 5px 0px rgba(174,173,173,0.68);
+-webkit-box-shadow: -4px 7px 5px 0px rgba(174,173,173,0.68);
+-moz-box-shadow: -4px 7px 5px 0px rgba(174,173,173,0.68);
+padding: 20px;
+width: 65%;
+}
+.contbutton{
+  display: flex;
+  justify-content: space-between;
+}
+ 
+.item{
+  
+  flex-basis: 100px;
+  height: 25px;
+  margin: 5px;
+}
+
+.mainform{
+  display: flex;
+  justify-content: center;
+}
+
+.formbutton1{
+  margin-left: 110px;
+  margin-top: 3px;
+  height: 25px;
+  text-decoration:none;
+  font-weight: 600;
+  font-size: 10px;
+  color:#ffffff;  padding-top:5px;
+  padding-bottom:5px;
+  padding-left:20px;
+  padding-right:20px;
+  background-color:#1c5e0c;
+  border-color: #d8d8d8;
+  border-width: 3px;
+  border-style: solid;
+  border-radius:5px;
+  width: 70px;
+}
+.formbutton2{
+  margin-top: 3px;
+  height: 25px;
+  text-decoration:none;
+  font-weight: 600;
+  font-size: 10px;
+  color:#ffa600; 
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-left:20px;
+  padding-right:20px;
+  background-color:#ffffff;
+  border-color: #ffa600;
+  border-width: 3px;
+  border-style: solid;
+  border-radius:5px;
+  width: 70px;
+}
+
+.buttonedit{
+  text-decoration:none;
+  font-weight: 600;
+  font-size: 10px;
+  color:#ffffff;
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-left:20px;
+  padding-right:20px;
+  background-color:#ffa600;
+  border-color: #d8d8d8;
+  border-width: 3px;
+  border-style: solid;
+  border-radius:35px;
+}
+
+.buttondelete{
+
+  text-decoration:none;
+  font-weight: 600;
+  font-size: 10px;
+  color:#ffffff;  padding-top:5px;
+  padding-bottom:5px;
+  padding-left:20px;
+  padding-right:20px;
+  background-color:#b64141;
+  border-color: #d8d8d8;
+  border-width: 3px;
+  border-style: solid;
+  border-radius:35px;
+}
+
+.buttonadd{
+  width: 150px;
+  text-decoration:none;
+  font-weight: 600;
+  font-size: 10px;
+  color:#ffffff;  
+  padding-top:5px;
+  padding-bottom:5px;
+  padding-left:20px;
+  padding-right:20px;
+  background-color:#163496;
+  border-color: #d8d8d8;
+  border-width: 1px;
+  border-style: solid;
+  border-radius:15px;
+}
+
+
+.dataTable{
+  justify-content: space-between;
+  width: 70%;
+}
